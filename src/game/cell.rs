@@ -6,5 +6,15 @@ pub struct Cell {
 }
 
 impl Cell {
+    pub fn new(positionX: usize, positionY: usize) -> Self {
+        Cell {
+            positionX: positionX,
+            positionY: positionY,
+            isAlive: false,
+        }
+    }
 
+    pub fn isAlive() -> bool {
+        isAlive;
+    }
 }
